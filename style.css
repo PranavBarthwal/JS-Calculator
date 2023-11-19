@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:wght@300&display=swap');
+
+
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(24, 0, 161));
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.183);
+    border-radius: 20px;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px 20px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.742);
+
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.buttons button{
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.display{
+    height : 80px;
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: right;
+    color: rgb(0, 0, 0);
+    
+}
+
+.buttons button:active{
+    transform: scale(0.99);
+}
+
+.operator{
+    color: rgb(2, 154, 255);
+}
